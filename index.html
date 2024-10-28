@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Debit Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <div class="card-inner">
+            <div class="front">
+                <div class="row">
+                    <h1 style="font-size: 30px;  padding: auto; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; "> Bank Name </h1>
+                    <img src="istockphoto-1193495658-612x612-removebg-preview.png" width="60px">
+                </div>
+                <div class="row card-no" id="card-number">
+                    <p>****</p>
+                    <p>****</p>
+                    <p>****</p>
+                    <p>****</p>
+                </div>
+                <div class="row card-holder">
+                    <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Account Number</p>
+                    <p>VALID</p>
+                </div>
+                <div class="row name">
+                    <p id="card-holder-name">Card Holder Name </p>
+                    <p id="expiry-date">MM / YY</p>
+                </div>
+            </div>
+            <div class="back">
+                <p> For Customer Service call +123 456 789 000</p>
+                <div class="bar"></div>
+                <div class="row card-priv">
+                    
+                    <div>
+                        <img src="https://i.ibb.co/S6JG8px/pattern.png">
+                    </div>
+                    <p>123</p>
+                </div>
+                <div class="row card-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque distinctio sit fuga, suscipit voluptates ea deleniti, aperiam exercitationem corrupti debitis aut. Alias repudiandae ipsam in tempora asperiores accusantium maiores,
+
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="input-section">
+        <input type="text" id="account-number" placeholder="Enter Account Number" maxlength="30">
+        <input type="text" id="cardholder-name" placeholder="Enter Card Holder Name">
+        <input type="text" id="expiry-date" placeholder="Enter Expiry Date (MM / YY)">
+        <button id="btn"> Submit Information  </button>
+    </div>
+</div>
+
+ <script src="script.js"></script>
+
+</body>
+</html>
+
